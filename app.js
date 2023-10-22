@@ -1,10 +1,12 @@
 const express = require('express');
 const bodyParser = require('body-parser')
 const app = express();
+const cors = require('cors');
 
 const port = 8000;
 
 
+app.use(cors());
 app.use(express.urlencoded({ extended: true }))//allow to access information coming from forms
 app.use(bodyParser.json());
  

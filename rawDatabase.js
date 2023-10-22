@@ -2,23 +2,23 @@ const users =
 [
     {
         "name": "Fred",
-        age: 23
+        "age": 23
     },
     {
         "name": "Yawson",
-        age: 14
+        "age": 14
     },
     {
         "name": "Edward",
-        age: 102
+        "age": 102
     },
     {
         "name": "Anita",
-        age: 4
+        "age": 4
     },
     {
         "name": "Akua",
-        age: 45
+        "age": 45
     },
 
 ]
